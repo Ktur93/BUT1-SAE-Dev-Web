@@ -18,6 +18,3 @@ Objectif : répondre à un besoin “type client” en concevant et développant
 ## Technologies
 - **HTML5**
 - **CSS3**
-- (Optionnel selon ton projet) **JavaScript** : [oui/non]
-
-## Arborescence (exemple)
