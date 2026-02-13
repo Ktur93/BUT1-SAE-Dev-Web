@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact - O'SURVIE</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="entete-site">
+  <div class="conteneur entete-contenu">
+
+    <a href="index.html" class="logo-site">O'SURVIE</a>
+
+    <!-- mathis check si l'ordre du menu est bon -->
+    <!-- au pire faites juste un copier collé du <nav> perdez pas votre temps sur des trucs comme ca -->
+    <nav class="menu-principal">
+      <a href="index.html">Accueil</a>
+      <a href="a-propos.html">A propos</a>
+      <a href="actions.html">Nos actions</a>
+      <a href="ofacilit.html">O'Facilit</a>
+      <a href="financeurs.html">Financeurs</a>
+      <a class="lien-actif" href="contact.html">Contact</a>
+      <a class="lien-don"
+         href="https://www.helloasso.com/associations/o-survie/collectes/notre-generosite-change-nos-vies-et-eclaire-les-leurs"
+         target="_blank">
+        Faire un don
+      </a>
+    </nav>
+
+  </div>
+</header>
+
+<main>
+    <!-- K :  svp mettez des noms de classes simple vous etes relou a mettre des trucs rien a voir
+    j'ai pris 30 min a mettre des noms de classes cohérents -->
+  <section class="section">
+    <div class="conteneur">
+
+
+      <h1>Nous contacter</h1>
+
+      <p>
+        Pour toute question, demande d’information, envie de devenir bénévole ou envie de proposer
+        un partenariat, vous pouvez utiliser les coordonnées ci-dessous ou le formulaire de contact.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="conteneur">
+
+      <div class="grille-acces-contact">
+
+        <div class="bloc-contact-accueil">
+          <h2>Coordonnées de l'association</h2>
+
+          <!-- K: vérifier l’adresse avec la doc -->
+            <!-- A: c'est le bon bg -->
+          <p class="infos-contact">
+            <strong>O'SURVIE</strong><br>
+            6, square du 8 mai 1945<br>
+            93140 Bondy
+          </p>
+
+          <p class="infos-contact">
+            Email : <a href="mailto:contact@osurvie.fr">contact@osurvie.fr</a>
+          </p>
+
+          <p>
+            Les horaires et lieux des actions peuvent varier selon les projets.
+            Vous pouvez nous écrire pour obtenir des informations plus précises.
+          </p>
+        </div>
+
+        <div class="bloc-contact-accueil">
+          <h2>Envoyer un message</h2>
+
+          <!-- Z: faudrait rendre ca plus joli si on a le temps -->
+            <!-- A: Pas le temps c jusqu'a auj 23h59 -->
+          <form>
+            <p>
+              <label for="nom">Nom / Prénom</label><br>
+              <input type="text" id="nom" name="nom">
+            </p>
+
+            <p>
+              <label for="email">Adresse e-mail</label><br>
+              <input type="email" id="email" name="email">
+            </p>
+
+            <p>
+              <label for="sujet">Sujet</label><br>
+              <input type="text" id="sujet" name="sujet">
+            </p>
+
+            <p>
+              <label for="message">Message</label><br>
+              <textarea id="message" name="message" rows="4"></textarea>
+            </p>
+
+            <p>
+              <button type="submit" class="bouton-principal">Envoyer</button>
+            </p>
+
+            <p class="texte-remarque">
+              Le site n'étant relié à aucun serveur, le bouton ne renvoie rien. Il faudrait utiliser soit
+              la méthode GET ou PASS une fois le site relié à un serveur (comme vu en cours).
+            </p>
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="pied-site">
+  <div class="conteneur pied-contenu">
+    <p>&copy; 2025 O'SURVIE</p>
+    <p class="pied-groupe">Projet BUT Info – Ali · Kelyan · Zakariya · Mathis</p>
+    <p class="pied-liens">
+      <a href="mentions.html">Mentions légales</a> ·
+      <a href="cgu.html">CGU</a> ·
+      <a href="confidentialite.html">Confidentialité</a>
+    </p>
+  </div>
+</footer>
+
+</body>
+</html>
