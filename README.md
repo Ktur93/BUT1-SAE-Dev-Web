@@ -18,3 +18,20 @@ Objectif : répondre à un besoin “type client” en concevant et développant
 ## Technologies
 - **HTML5**
 - **CSS3**
+
+## Points clés (ce que j’ai appris)
+- Structurer une interface web de manière propre (HTML sémantique)
+- Construire une navigation et une arborescence multi-pages
+- Travailler en équipe avec une organisation claire (tâches, livrables)
+- Respecter un cadre “client” et livrer un résultat exploitable
+
+## Équipe / Rôle
+Projet réalisé en groupe.  
+Mon rôle : intégration HTML, mise en page CSS, structure du site, contenu, coordination…
+
+
+## Auteur
+**Ali DEMIR**  
+GitHub : https://github.com/Ktur93  
+LinkedIn : https://www.linkedin.com/in/demiralialain/
+
