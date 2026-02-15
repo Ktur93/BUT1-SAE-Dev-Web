@@ -29,6 +29,9 @@ Objectif : répondre à un besoin “type client” en concevant et développant
 Projet réalisé en groupe.  
 Mon rôle : intégration HTML, mise en page CSS, structure du site, contenu, coordination…
 
+## Lien du site internet
+Voici le lien pour accéder au site internet : https://ktur93.github.io/BUT1-SAE-Dev-Web/
+
 
 ## Auteur
 **Ali DEMIR**  
